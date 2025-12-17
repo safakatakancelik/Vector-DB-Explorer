@@ -6,7 +6,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from vector_db.src import VectorDBClient
-from vector_db_explorer.logic.visualizer import ExplorerVisualizer
+from vector_db_explorer.utils.visualizer import ExplorerVisualizer
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'

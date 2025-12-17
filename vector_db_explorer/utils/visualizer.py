@@ -127,9 +127,6 @@ class ExplorerVisualizer:
         
         # Highlighted Documents (Search Results)
         if search_result_indices:
-             # Create a specific mask/color for results? 
-             # Simpler: Just rely on lines, OR recolor them.
-             # Let's recolor search results to Success Green
              colors = ['#00f7ff'] * len(df) # Default Blue
              sizes = [10] * len(df)
              
