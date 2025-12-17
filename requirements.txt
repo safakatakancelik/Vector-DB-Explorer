@@ -1,0 +1,10 @@
+chromadb
+sentence-transformers
+umap-learn
+plotly
+pandas
+scikit-learn
+pytest
+langchain-text-splitters
+pypdf
+flask
